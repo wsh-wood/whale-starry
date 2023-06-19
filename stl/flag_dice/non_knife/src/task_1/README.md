@@ -10,4 +10,4 @@
 
 
 
-![main_test](non-knife/whale-starry/stl/flag_dice/non_knife/doc/task_1/task_1_main.png)
+![main_test](./doc/task_1/task_1_main.png)
