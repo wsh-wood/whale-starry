@@ -31,8 +31,7 @@ int main() {
     }
 
     endTime = std::chrono::high_resolution_clock::now();
-    duration = std::chrono::duration_cast<std::chrono::nanoseconds>(endTime -
-                                                                    startTime);
+    duration = std::chrono::duration_cast<std::chrono::nanoseconds>(endTime - startTime);
     std::cout << "后置递减时间：" << duration.count() << " 纳秒" << std::endl;
   }
 
