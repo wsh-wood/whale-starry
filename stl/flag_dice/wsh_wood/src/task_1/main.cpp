@@ -19,8 +19,9 @@ int main() {
     }
 
     auto endTime = std::chrono::high_resolution_clock::now();
-    auto duration = std::chrono::duration_cast<std::chrono::nanoseconds>(
-        endTime - startTime);
+    auto duration =
+        std::chrono::duration_cast<std::chrono::nanoseconds>(endTime - startTime);
+    
     std::cout << "前置递减时间：" << duration.count() << " 纳秒" << std::endl;
 
     // 测试后置递减的性能

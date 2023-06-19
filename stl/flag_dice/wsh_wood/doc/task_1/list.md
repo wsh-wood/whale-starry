@@ -4,7 +4,7 @@
 
 
 
-![list](F:/git/whale-starry/stl/flag_dice/wsh_wood/doc/task_1/list.jpg)
+![list](list.jpg)
 
 ## 宏学习
 
@@ -163,7 +163,8 @@ bar(A&&)
 
 测试结果如下：
 
-![image-20230619205300339](C:/Users/wangxinghao/AppData/Roaming/Typora/typora-user-images/image-20230619205300339.png)
+
+![test](test.jpg)
 
 结论：因为编译器的优化，前++和后++在实际编码中并没有多大区别。
 
